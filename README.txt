@@ -1,5 +1,6 @@
-This repository includes codes for two simulation studies in the Manuscript, and one simulation study in the Supplementary materials.
+The project "DISCM-code" is created for the paper "Estimation and Inference for Dynamic Single-Index" submitted to Statistica Sinica.
 
+This repository includes codes for two simulation studies in the Manuscript, and one simulation study in the Supplementary materials.
 
 1. The folder "Functions" contains eight R files:
 
