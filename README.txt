@@ -1,11 +1,11 @@
 {\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf840
 {\fonttbl\f0\fnil\fcharset134 STFangsong;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww15040\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 This repository includes codes for two simulation studies in the Manuscript, and one simulation study,  two applications in the Supplementary materials.\
+\f0\fs36 \cf0 This repository includes codes for two simulation studies in the Manuscript, and one simulation study in the Supplementary materials.\
 \
 \
 1. The folder \'a1\'b0Functions\'a1\'b1 contains eight R files:\
@@ -36,11 +36,4 @@
 2.3.  sim3_main.R:  main procedure for example 3\
 \
 \
-3. The folder "Application" contains two folders:\
-\
-3.1. bodyfat: it contains R code for the analysis in Section S5.1 in the supplementary materials.  The description for the data can be found at \cf2 \expnd0\expndtw0\kerning0
-SatLib.\
-\cf0 \kerning1\expnd0\expndtw0 \
-3.2. boston:  it contains R code for the analysis in Section S5.2 in the supplementary materials.  The description for the data can be found at \cf2 \expnd0\expndtw0\kerning0
-SatLib.\cf0 \kerning1\expnd0\expndtw0 \
 }
