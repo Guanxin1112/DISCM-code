@@ -15,8 +15,8 @@ devSCAD<-function(u,tune){
 
 
 Penalest<-function(tune, deltaini, q, k, k1, y, z, x, u){
-  #Penal_est penalized estimation to identify constant coefficient function
-  #get penalized function estimation and its first derivative of norm of (\beta_{k}) function function
+  #obtain the penalized estimation and identify constant coefficient functions
+  #get the penalized function estimation and the norm of the first derivative function of (\beta_{k}) function
   dz = ncol(z); dx = ncol(x); n = nrow(z)
   tmp = rep(0, k)  # internal knots
   for(j in 1:k){ tmp[j] = quantile(sort(u), j/(k+1))}
@@ -129,7 +129,7 @@ Penalest<-function(tune, deltaini, q, k, k1, y, z, x, u){
     R = constrOptim(theta=coeff, f=Pfn, grad = Pgn, ui = Amat, ci = bvec) 
     temp = R$par    
      
-    #this construction of temp make sure that zeroind is nondecreasing
+    #the construction of temp is used to make sure that zeroind is nondecreasing
     tempm = matrix(0, nrow = (q+k), ncol=dz)
     tempm1 = matrix(temp, nrow = (q+k), byrow= F)
     tempm[,varyind] = tempm1
